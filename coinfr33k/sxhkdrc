@@ -1,0 +1,20 @@
+super + Escape
+	pkill -15 Xorg
+
+super + Return
+	kitty	
+
+super + i
+	chromium --incognito
+
+super + c 
+	chromium
+
+super + l
+	learn
+
+super + d
+	day
+
+super + t
+    trades
