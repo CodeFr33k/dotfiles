@@ -16,6 +16,10 @@ set undofile
 set incsearch
 set encoding=utf-8
 set viminfo+=n~/.vim/viminfo
+set relativenumber
+
+" fix for kitty black bars
+let &t_ut=''
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
