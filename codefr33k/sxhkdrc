@@ -4,8 +4,14 @@ super + C
 super + c 
 	chromium
 
+super + f
+    focus
+
 super + g
     gmail
+
+super + G
+    github
 
 super + i
 	chromium --incognito
@@ -16,11 +22,20 @@ super + Return
 super + t
     tech
 
+super + T
+    todo
+
 super + d
     daytime
 
 super + o
     obs
+
+super + s 
+    caml
+
+super + w
+    codefr33k.twitch.tv
 
 
 
