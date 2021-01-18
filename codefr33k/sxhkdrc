@@ -7,9 +7,6 @@ super + C
 super + c 
 	chromium
 
-super + x
-	day
-
 super + f
     focus
 
@@ -33,9 +30,6 @@ super + T
 
 super + o
     obs
-
-super + s 
-    caml
 
 super + S
     search

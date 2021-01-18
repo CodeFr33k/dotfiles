@@ -30,6 +30,7 @@ Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'git@github.com:Valloric/YouCompleteMe.git', { 'do': './install.py --ts-completer' }
 Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 colorscheme gruvbox
@@ -47,6 +48,8 @@ let g:netrw_winsize = 25
 
 let g:ctrlp_use_caching = 0
 
+let NERDTreeShowHidden=1
+
 nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <Leader>gf :YcmCompleter FixIt<CR>
 
@@ -54,3 +57,9 @@ nnoremap <silent> <Leader>pp :Files<CR>
 nnoremap <silent> <Leader>bb :Buffers<CR>
 nnoremap <silent> <Leader>pg :GFiles?<CR>
 nnoremap <C-f> :Rg 
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-x> :NERDTreeFind<CR>
+
